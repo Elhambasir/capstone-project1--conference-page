@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+
+.active {
+  color: #ec5242 !important;
+}
+
+.tx-custom-color {
+  color: #ec5242 !important;
+}
+
+.campaign {
+  color: #ec5242;
+  border: 7px solid #ec5242;
+}
+
+.campaign a {
+  color: #ec5242;
+}
+
+h1.fw-bolder {
+  font-size: 25px;
+}
+
+.fs-small {
+  font-size: 11px;
+}
+
+.tx-custom-black {
+  color: #272a31;
+}
+
+.bg-custom-black {
+  background-color: #272a31;
+}
+
+.bg-custom-lightgray {
+  background-color: #d3d3d3;
+}
+
+#demo-text {
+  font-size: 27px;
+  font-weight: bolder;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: #ec5242;
+
+  /* background-image: url('https://s3.amazonaws.com/usefulangle/news/95-5f6cc1ad5575e.jpg'); */
+}
+
+.main {
+  background-image: url(/assets/images/mainbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section h5 {
+  margin: 0;
+  text-align: center;
+}
+
+.section h6 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.section p {
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+  color: #272a31;
+  margin-top: 15px;
+}
+
+.email {
+  text-align: center;
+  width: 100%;
+  float: left;
+}
+
+.program_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 8px;
+}
+
+.star_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 15px;
+  border: 1px solid lightgray;
+  margin: 20px auto;
+}
+
+/* HISTORY SECTION STYLE  */
+.history_section .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.history_section .title p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.history_section .img_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.history_section .img_section .img_cover {
+  /* flex: 1; */
+  background-image: url(/assets/images/filarmonica-di-san-pietroburgo2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 150px;
+  width: 90%;
+}
+
+.history_section .img_section .img_cover .layer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #944038;
+  mix-blend-mode: hard-light;
+  padding: 0 10px;
+}
+
+.history_section .img_section .img_cover > * {
+  color: white;
+}
+
+.history_section .img_section .img_cover .layer p {
+  font-size: 12px;
+}
+
+.hr {
+  width: 8% !important;
+  color: #ec5242;
+  background-color: #ec5242;
+
+  /* border-bottom: 1px solid #ec5242; */
+  margin: 10px auto !important;
+}
+
+p.joinUs {
+  font-size: 12px;
+  color: #272a31;
+  font-weight: bold;
+}
