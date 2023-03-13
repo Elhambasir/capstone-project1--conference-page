@@ -120,7 +120,7 @@ h1.fw-bolder {
 
 .history_section .img_section .img_cover {
   /* flex: 1; */
-  background-image: url(/assets/images/filarmonica-di-san-pietroburgo2.jpg);
+  background-image: url(assets/images/filarmonica-di-san-pietroburgo2.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
