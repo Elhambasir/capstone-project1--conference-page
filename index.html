@@ -19,35 +19,39 @@
 
 <body>
     <div class="main pb-5">
-        <div class="container-fluid">
+        <div class="container">
             <nav class="navbar navbar-expand-lg bg-transparent fs-5 fw-semibold">
                 <div class="container">
-                    <a class="navbar-brand flex-grow-1 d-none d-lg-block fs-4" href="#">Navbar scroll</a>
-                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
-                        aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse d-lg-flex justify-content-center " id="navbarScroll">
-                        <ul class="navbar-nav my-2 my-lg-0 d-flex flex-grow-1 " style="--bs-scroll-height: 100px;">
-                            <li class="nav-item flex-fill ">
-                                <a class="nav-link active" aria-current="page" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item flex-fill">
-                                <a class="nav-link" href="#">Program</a>
-                            </li>
-                            <li class="nav-item flex-fill">
-                                <a class="nav-link">Join</a>
-                            </li>
-                            <li class="nav-item flex-fill">
-                                <a class="nav-link">Sponsor</a>
-                            </li>
-                            <li class="nav-item flex-fill">
-                                <a class="nav-link">News</a>
-                            </li>
-                        </ul>
-                        <div class="navbar-brand campaign ps-2 py-2">
-                            <a class="navbar-brand flex-grow-1 fs-5 fw-semibold" href="#">CC Campaign</a>
+                    <a class="navbar-brand d-none d-lg-block" href="index.html">Star Educational Society</a>
+                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Star Educational Society</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Program</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Join</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Sponsor</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">News</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
