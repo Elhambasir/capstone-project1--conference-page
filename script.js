@@ -25,6 +25,31 @@ teacherInfo.forEach((item) => {
 </div>`
     master.innerHTML += card;
 });
-master.innerHTML += ` <div class="more">
-<button><span>MORE</span><i class="bi bi-chevron-down mx-1"></i></button>
-</div>`;
+
+const btnJoin = document.querySelector('.join_button_cover');
+const body = document.querySelector('body');
+window.addEventListener(('resize'), () => {
+    change();
+});
+window.addEventListener(('load'), () => {
+    change();
+});
+
+function change() {
+    if (window.screen.width >= 768) {
+        btnJoin.children[0].remove();
+        let a = document.createElement('a');
+        a.innerHTML = "SEE THE WHOLE PROGRAM";
+        a.style = "color:white;cursor:pointer;border-bottom:1px solid white;font-size:12px"
+        btnJoin.appendChild(a);
+        document.querySelector('#removeableFooter').classList.remove('d-none');
+        document.querySelector('.more').classList.add('d-none');
+    } else if (window.screen.width < 768) {
+        body.lastChild.remove();
+        btnJoin.children[0].remove();
+        document.querySelector('#removeableFooter').classList.add('d-none');
+        document.querySelector('.more').classList.remove('d-none');
+        btnJoin.innerHTML = "<button>Join Star Education Society</button>";
+    }
+}
+

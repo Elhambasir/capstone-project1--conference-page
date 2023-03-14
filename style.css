@@ -10,7 +10,8 @@
 
 .campaign {
   color: #ec5242;
-  border: 7px solid #ec5242;
+  border: 6px solid #ec5242;
+  padding: 0 25px;
 }
 
 .campaign a {
@@ -59,6 +60,11 @@ h1.fw-bolder {
   background-size: cover;
 }
 
+.rounded {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .section {
   background-image: url(/assets/images/backgrounds2.png);
 }
@@ -86,6 +92,14 @@ h1.fw-bolder {
   align-items: center;
   gap: 10px;
   padding: 5px 8px;
+}
+
+.program_section .program {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 }
 
 .program_item {
@@ -223,3 +237,10 @@ h1.fw-bolder {
   background-color: #ec5242;
   margin: 10px auto !important;
 }
+
+/* #removeableFooter {
+  display: none;
+}
+.show{
+  display: none;
+} */

@@ -10,7 +10,8 @@
 
 .campaign {
   color: #ec5242;
-  border: 7px solid #ec5242;
+  border: 6px solid #ec5242;
+  padding: 0 25px;
 }
 
 .campaign a {
@@ -35,6 +36,11 @@ h1.fw-bolder {
 
 .bg-custom-lightgray {
   background-color: #d3d3d3;
+}
+
+.rounded {
+  width: 90%;
+  margin: 0 auto;
 }
 
 #demo-text {
@@ -89,10 +95,11 @@ h1.fw-bolder {
 }
 
 .star_logo {
+  width: 85% !important;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 15px;
+  padding: 25px 15px;
   border: 1px solid lightgray;
   margin: 20px auto;
 }
@@ -140,7 +147,7 @@ h1.fw-bolder {
   padding: 0 10px;
 }
 
-.history_section .img_section .img_cover>* {
+.history_section .img_section .img_cover > * {
   color: white;
 }
 

@@ -7,30 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="desktop_version.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-  
-        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
 </head>
 
 <body>
     <div class="main pb-5">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-transparent fs-5 fw-semibold">
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg fs-5 fw-semibold">
                 <div class="container">
                     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand d-none d-lg-block" href="index.html">Star Educational Society</a>
+                    <a class="navbar-brand d-none d-lg-block ms-5" href="index.html">Star<small
+                            class="active">Educational</small>Society</a>
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Star Educational Society</h5>
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Star<small
+                                    class="active">Educational</small>Society</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
@@ -51,6 +53,9 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">News</a>
                                 </li>
+                                <li class="nav-item ms-5">
+                                    <a class="navbar-brand d-none d-lg-block campaign" href="#">Star</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -58,11 +63,12 @@
             </nav>
 
             <div class="row">
-                <div class="col-md-8">
-                    <div class="mt-5 active rounded">
+                <div class="col head_content">
+                    <div class="mt-5 active rounded ">
                         <h6>"Hello! Sharing world"</h6>
                         <div id="demo-text" class=" fw-bolder px-1 ">STAR EDUCATIONAL<br>SOCIETY 2022</div>
-                        <P class="tx-custom-black white-border fs-small px-2 py-2 mt-4 mb-4">Star Educational Society is a not-for-profit educational institute focused on providing access to qu</P>
+                        <P class="tx-custom-black white-border fs-small px-2 py-2 mt-4 mb-4">Star Educational Society is
+                            a not-for-profit educational institute focused on providing access to qu</P>
                         <h4 class="tx-custom-black fw-bolder ">2015.10.15(THU) ~ 16(FRI)</h4>
                         <P class="tx-custom-black fs-small">@ National Museum of Korea, Art Center Nabi and more</P>
                     </div>
@@ -74,59 +80,62 @@
     <section class="section bg-custom-black">
         <div class="container-fluid bg-transparent">
             <div class="row text-white px-1 py-3 text-center">
-                <h5>Main Program</h5><hr class="hr">
+                <h5>Main Program</h5>
+                <hr class="hr">
             </div>
 
             <div class="row program_section">
-                <div class="program_item">
-                    <div class="img_cover">
-                        <img src="assets/images/discoursew.png" width="40px" alt="">
+                <div class="program">
+                    <div class="program_item">
+                        <div class="img_cover">
+                            <img src="assets/images/discoursew.png" width="40px" alt="">
+                        </div>
+                        <div class="title">
+                            <h6 class="tx-custom-color">Lecture</h6>
+                        </div>
+                        <div class="desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
                     </div>
-                    <div class="title">
-                        <h6 class="tx-custom-color">Lecture</h6>
-                    </div>
-                    <div class="desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                </div>
 
-                <div class="program_item">
-                    <div class="img_cover"><img src="assets/images/galery.png" width="40px" alt=""></div>
-                    <div class="title">
-                        <h6 class="tx-custom-color">Gramar</h6>
+                    <div class="program_item">
+                        <div class="img_cover"><img src="assets/images/galery.png" width="40px" alt=""></div>
+                        <div class="title">
+                            <h6 class="tx-custom-color">Gramar</h6>
+                        </div>
+                        <div class="desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
                     </div>
-                    <div class="desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                </div>
 
-                <div class="program_item">
-                    <div class="img_cover"><img src="assets/images/interm.png" width="40px" alt=""></div>
-                    <div class="title">
-                        <h6 class="tx-custom-color">Dictation</h6>
+                    <div class="program_item">
+                        <div class="img_cover"><img src="assets/images/interm.png" width="40px" alt=""></div>
+                        <div class="title">
+                            <h6 class="tx-custom-color">Dictation</h6>
+                        </div>
+                        <div class="desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
                     </div>
-                    <div class="desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                </div>
 
-                <div class="program_item">
-                    <div class="img_cover"><img src="assets/images/discoursew.png" width="40px" alt=""></div>
-                    <div class="title">
-                        <h6 class="tx-custom-color">Topic</h6>
+                    <div class="program_item">
+                        <div class="img_cover"><img src="assets/images/discoursew.png" width="40px" alt=""></div>
+                        <div class="title">
+                            <h6 class="tx-custom-color">Topic</h6>
+                        </div>
+                        <div class="desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
                     </div>
-                    <div class="desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                    </div>
-                </div>
 
-                <div class="program_item">
-                    <div class="img_cover"><img src="assets/images/discourse.png" width="40px" alt=""></div>
-                    <div class="title">
-                        <h6 class="tx-custom-color">Quiz</h6>
-                    </div>
-                    <div class="desc">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                    <div class="program_item">
+                        <div class="img_cover"><img src="assets/images/discourse.png" width="40px" alt=""></div>
+                        <div class="title">
+                            <h6 class="tx-custom-color">Quiz</h6>
+                        </div>
+                        <div class="desc">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
                     </div>
                 </div>
                 <div class="join_button_cover">
@@ -137,19 +146,49 @@
     </section>
     <!-- .......TEACHER SECTION....... -->
     <section class="teacher_section py-4 border d-flex flex-column justify-content-center align-item-center">
-        <div class="row text-white px-1 py-3 text-center">
-            <h6 class="tx-custom-black">Featured Teachers</h6>
-            <hr class="hr">
-            <!-- <hr class="hr"> -->
+        <div class="master">
+            <div class="row text-white px-1 py-3 text-center">
+                <h6 class="tx-custom-black">Featured Teachers</h6>
+                <hr class="hr">
+                <!-- <hr class="hr"> -->
+            </div>
+            <div class="master_item" id="a">
+
+            </div>
+            <div class="more">
+                <button><span>MORE</span><i class="bi bi-chevron-down mx-1"></i></button>
+            </div>
         </div>
-        <div class="master" id="a">     
-           
+    </section>
+    <section class="container-fluid bg-custom-black" id="removeableFooter">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col text-center text-white">
+                    <h6>Contact</h6>
+                    <hr class="hr">
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col text-white m-1">Google</div>
+                <div class="col text-white m-1">Facebook</div>
+                <div class="col text-white m-1">Twitter</div>
+                <div class="col text-white m-1">Instagram</div>
+                <div class="col text-white m-1">Youtube</div>
+            </div>
+        </div>
+        <div class="row bg-white">
+            <div class="col text-center pt-3">
+                <a class=" nav-link" href="#">Star<small class="active">Educational</small>Society</a>
+            </div>
+            <div class="col text-center pt-3">
+                <p class="tx-custom-black py-1 joinUs">Join us for difference</p>
+            </div>
         </div>
     </section>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-    crossorigin="anonymous"></script>
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

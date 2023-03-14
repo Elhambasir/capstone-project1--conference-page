@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="about_desktop_version.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
@@ -27,18 +28,20 @@
                         data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <a class="navbar-brand d-none d-lg-block" href="index.html">Star Educational Society</a>
+                    <a class="navbar-brand d-none d-lg-block ms-5" href="index.html">Star<small
+                            class="active">Educational</small>Society</a>
                     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
                         aria-labelledby="offcanvasNavbarLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Star Educational Society</h5>
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <a class="navbar-brand  d-lg-block"
+                                    href="index.html">Star<small class="active">Educational</small>Society</a></h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
                         <div class="offcanvas-body">
                             <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                                    <a class="nav-link active" aria-current="page" href="about.html">About</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Program</a>
@@ -52,55 +55,30 @@
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">News</a>
                                 </li>
+                                <li class="nav-item ms-5">
+                                    <a class="navbar-brand d-none d-lg-block campaign" href="#">Star</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </nav>
-            <!-- <nav class="navbar navbar-expand-lg bg-transparent fs-5 fw-semibold">
-                <div class="container">
-                    <a class="navbar-brand flex-grow-1 d-none d-lg-block fs-4" href="#">Navbar scroll</a>
-                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse d-lg-flex justify-content-center " id="navbarScroll">
-                        <ul class="navbar-nav my-2 my-lg-0 d-flex flex-grow-1 " style="--bs-scroll-height: 100px;">
-                            <li class="nav-item flex-fill ">
-                                <a class="nav-link active" aria-current="page" href="#">About</a>
-                            </li>
-                            <li class="nav-item flex-fill">
-                                <a class="nav-link" href="#">Program</a>
-                            </li>
-                            <li class="nav-item flex-fill">
-                                <a class="nav-link">Join</a>
-                            </li>
-                            <li class="nav-item flex-fill">
-                                <a class="nav-link">Sponsor</a>
-                            </li>
-                            <li class="nav-item flex-fill">
-                                <a class="nav-link">News</a>
-                            </li>
-                        </ul>
-                        <div class="navbar-brand campaign ps-2 py-2">
-                            <a class="navbar-brand flex-grow-1 fs-5 fw-semibold" href="#">CC Campaign</a>
-                        </div>
-                    </div>
-                </div>
-            </nav> -->
 
             <div class="row">
-                <div class="col-md-8">
-                    <div class="mt-5 active rounded">
-                        <h6 class="text-center">"Hello! Sharing world"</h6>
-                        <div id="demo-text" class=" fw-bolder px-1 ">STAR EDUCATIONAL <br> SOCIETY 2022 </div>
-                        <P class="tx-custom-black border fs-small px-2 py-2 bg-white mt-3 mb-3">Star Educational Society
+                <div class="col head_content pb-4">
+                    <div class="mt-5 active rounded ">
+                        <h6 class="d-lg-none text-center">"Hello! Sharing world"</h6>
+                        <div id="demo-text" class=" fw-bolder px-1 text-center">STAR EDUCATIONAL<br>SOCIETY 2022</div>
+                        <P class="tx-custom-black white-border fs-small px-2 py-2 mt-4 mb-4 text-center">Star
+                            Educational Society
                             is a not-for-profit educational institute focused on providing access to qu.Star Educational
-                            Society is an education management company based in Afghanistan.</P>
-                        <P class="tx-custom-black fs-small m-0 text-center">Please contact us per Email for any further
-                            questions about Star Educational Society!</P>
-                        <a href="#" class="email tx-custom-black">Star2022@gmail.com</a>
+                            Society is an education management company based in Afghanistan.
+                            Star Educational Society
+                            is a not-for-profit educational institute focused on providing access to qu.Star Educational
+                            Society is an education management company based in Afghanistan</P>
+                        <small class="tx-custom-black fs-small  text-center">Please contact us per Email for any further
+                            questions about Star Educational Society!</small>
+                        <a href="#" class="email tx-custom-black text-center fs-small">star2022@gmail.com</a>
                     </div>
                 </div>
             </div>
@@ -110,14 +88,14 @@
     <section class="section bg-white border-bottom pb-4">
         <div class="container-fluid bg-white">
             <div class="row text-white px-1 py-3 text-center">
-                <h5 class="tx-custom-black">Star Educationlal Society 2022</h5>
+                <h5 class="tx-custom-black mt-1">Star Educationlal Society 2022</h5>
                 <hr class="hr">
                 <p class="tx-custom-black">The logo of Star Educational Society 2022 was decided through the logo
                     competation from 10 June to 7. July</p>
             </div>
             <div class="row program_section">
                 <div class="star_logo">
-                    <img src="assets/images/star_logo.PNG" alt="">
+                    <a class=" nav-link" href="#">Star<small class="active">Educational</small>Society</a>
                 </div>
             </div>
         </div>
@@ -148,7 +126,7 @@
     </section>
 
     <section class="container-fluid bg-custom-black">
-        <div class="container py-5">
+        <div class="container py-5 d-md-none">
             <div class="row">
                 <div class="col text-center text-white">
                     <h6>Contact</h6>
@@ -164,8 +142,10 @@
             </div>
         </div>
         <div class="row bg-white">
-            <div class="col"><img src="assets/images/star_logo.PNG" width="150" height="50" alt=""></div>
-            <div class="col">
+            <div class="col text-center pt-3">
+                <a class=" nav-link" href="#">Star<small class="active">Educational</small>Society</a>
+            </div>
+            <div class="col text-center pt-3">
                 <p class="tx-custom-black py-1 joinUs">Join us for difference</p>
             </div>
         </div>
