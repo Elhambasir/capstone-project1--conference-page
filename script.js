@@ -8,7 +8,42 @@ let teacherInfo = [
 ];
 
 const master = document.querySelector('#a');
-teacherInfo.forEach((item) => {
+const btnMore = document.querySelector('#btn_more');
+btnMore.addEventListener('click', () => {
+    while (master.hasChildNodes()) {
+        master.removeChild(master.firstChild);
+    }
+    teacherInfo.forEach((item) => {
+
+        loadTeacherInfo(item);
+    });
+
+});
+
+window.onresize = function () {
+    provideTeacherInfo();
+}
+
+window.onload = function () {
+    provideTeacherInfo();
+}
+function provideTeacherInfo() {
+    while (master.hasChildNodes()) {
+        master.removeChild(master.firstChild);
+    }
+    let count = 0;
+    teacherInfo.forEach((item) => {
+        if (window.screen.width < 768) {
+            if (count < 2) {
+                loadTeacherInfo(item);
+                count++;
+            }
+        } else {
+            loadTeacherInfo(item);
+        }
+    });
+}
+function loadTeacherInfo(item) {
     const card = ` <div class="card">
     <div class="img_cover">
         <div class="background"></div>
@@ -24,7 +59,7 @@ teacherInfo.forEach((item) => {
     </div>
 </div>`
     master.innerHTML += card;
-});
+}
 
 const btnJoin = document.querySelector('.join_button_cover');
 window.addEventListener(('resize'), () => {

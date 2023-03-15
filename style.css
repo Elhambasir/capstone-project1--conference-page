@@ -114,17 +114,18 @@ h1.fw-bolder {
 
 .program_item {
   background: rgb(0, 0, 0);
-
-  /* Fallback color */
   background: rgb(124 124 124 / 50%);
-
-  /* Black background with 0.5 opacity */
   color: #f1f1f1;
   padding: 20px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+
+.program_item:hover {
+  cursor: pointer;
+  border: 1px solid white;
 }
 
 .program_item .img_cover {
