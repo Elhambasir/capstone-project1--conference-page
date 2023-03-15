@@ -1,8 +1,7 @@
-# MyPortfolio
+# HTML/CSS & JavaScript capstone project - Star Educational Society
 <a name="readme-top"></a>
 
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -33,10 +32,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello Microverse] <a name="about-project">
-Hello , this a mobile first portfolio project</a>
+# 📖 [Star Educational Society] <a name="about-project">
+Hello , this a website for Star Educational Center</a>
 
-[Basir elham's portfolio] This a portfolio mobile first app. It is created according to a figma template and the complete version will be pushed next time.
+[Star's Website] This a webasite mobile first app. It is created according to capston project but the contents are different. For now just about and home page are completed but the complete version will be pushed next time.
 
 ## 🛠 Built With 
 
@@ -44,13 +43,16 @@ Hello , this a mobile first portfolio project</a>
 HTML
 CSS
 JAVASCRIPT
+BOOTSTRAP
 
 ### Key Features 
 
 - **[Navbar]**
 - **[Background image]**
-- **[Bobile first]**
+- **[Mobile first]**
 - **[Linter is used]**
+- **[Eslinter is used]**
+- **[Responsive]**
 
 <!-- GETTING STARTED -->
 
@@ -64,7 +66,7 @@ In order to run this project you need:You have to clone this project to your loc
 
 ### Setup
 
-Clone this repository to your desired folder:git clone git@github.com:Elhambasir/MyPortfolio.git
+Clone this repository to your desired folder:git clone https://github.com/Elhambasir/capstone-project1--conference-page.git
 
 ### Install
 
@@ -82,7 +84,7 @@ To run tests, run the following command: In visual studio code with live server 
 
 ## 🚀 Live Demo <a name="Live Demo"></a>
 
-[Live Demo Link](https://elhambasir.github.io/MyPortfolio/)
+[Live Demo Link](https://elhambasir.github.io/capstone-project1--conference-page/)
 
 <!-- AUTHORS -->
 
@@ -98,9 +100,10 @@ To run tests, run the following command: In visual studio code with live server 
 <!-- FUTURE FEATURES -->
 ## Future Features
 
-- [ ] **[Responsive]**
+- [ ] **[Fully responsive]**
 - [ ] **[Other features]**
 - [ ] **[Better style]**
+- [ ] **[Complete other parts]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,18 +112,14 @@ To run tests, run the following command: In visual studio code with live server 
 
 Contributions, issues, and feature requests are welcome!
 
-*GitHub: [Dorcas126](https://github.com/Dorcas126)
-*GitHub: [KAYEMBAJONATHAN](https://github.com/KAYEMBAJONATHAN)
-*GitHub: [Nelofarzabi](https://github.com/Nelofarzabi)
-*GitHub: [popey17](https://github.com/popey17)
-
 Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
-If you like this project reach me on my contact
+If you like this project reach me on my contact: WhatsApp => +93767405466
+
 
 <!-- ACKNOWLEDGEMENTS -->
 
@@ -129,4 +128,4 @@ If you like this project reach me on my contact
 I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
 
 📝 License
-This project is [MIT](./LICENSE) licensed.
+This project is [CINDY SHIN IN BEHANCE](./LICENSE) licensed.

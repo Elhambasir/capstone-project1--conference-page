@@ -9,8 +9,8 @@
 
   .head_content .rounded {
     position: relative;
-    top: 50px;
-    left: 80px;
+    top: 0;
+    left: 15px;
     width: 85%;
     margin: 0 auto;
   }
@@ -25,7 +25,7 @@
 
   .head_content .rounded p {
     font-size: 1.5rem;
-    width: 55%;
+    width: 85%;
     background-color: #f7f7f7;
   }
 
@@ -74,5 +74,25 @@
     grid-template-columns: 50% 50%;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media (min-width: 1024) {
+  .head_content .rounded {
+    position: relative;
+    top: 0;
+    left: 15px;
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1440) {
+  .head_content .rounded {
+    position: relative;
+    top: 98px;
+    left: 15px;
+    width: 85%;
+    margin: 0 auto;
   }
 }
