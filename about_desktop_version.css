@@ -26,6 +26,11 @@
     line-height: 2.7rem;
   }
 
+  .footer a,
+  .footer p {
+    color: white;
+  }
+
   .head_content .rounded p {
     font-size: 0.6rem;
     width: 85%;
@@ -78,5 +83,9 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+  }
+
+  .footer {
+    background-color: #272a31;
   }
 }

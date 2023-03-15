@@ -27,15 +27,23 @@ teacherInfo.forEach((item) => {
 });
 
 const btnJoin = document.querySelector('.join_button_cover');
-const body = document.querySelector('body');
 window.addEventListener(('resize'), () => {
     change();
 });
 window.addEventListener(('load'), () => {
     change();
 });
-
 function change() {
+    const navbar = document.querySelector('.navbar');
+    if (window.screen.width > 768) {
+        navbar.classList.remove('bg-transparent');
+        navbar.classList.add('bg-lg-white');
+        navbar.classList.add('shadow-sm');
+    } else if (window.screen.width <= 768) {
+        navbar.classList.add('bg-transparent');
+        navbar.classList.remove('bg-lg-white');
+        navbar.classList.remove('shadow-sm');
+    }
     if (window.screen.width >= 768) {
         btnJoin.children[0].remove();
         let a = document.createElement('a');
@@ -45,8 +53,6 @@ function change() {
         document.querySelector('#removeableFooter').classList.remove('d-none');
         document.querySelector('.more').classList.add('d-none');
     } else if (window.screen.width < 768) {
-        body.lastChild.remove();
-        btnJoin.children[0].remove();
         document.querySelector('#removeableFooter').classList.add('d-none');
         document.querySelector('.more').classList.remove('d-none');
         btnJoin.innerHTML = "<button>Join Star Education Society</button>";

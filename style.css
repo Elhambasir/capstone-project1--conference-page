@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
 
 .active {
   color: #ec5242 !important;
@@ -19,10 +24,14 @@
 }
 
 h1.fw-bolder {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
   font-size: 25px;
 }
 
 .fs-small {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
   font-size: 11px;
 }
 
@@ -39,14 +48,14 @@ h1.fw-bolder {
 }
 
 #demo-text {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
   font-size: 27px;
   font-weight: bolder;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   background-color: #ec5242;
-
-  /* background-image: url(/assets/images/textBackgrounImage.PNG); */
 }
 
 .white-border {
@@ -91,7 +100,8 @@ h1.fw-bolder {
   justify-content: center;
   align-items: center;
   gap: 10px;
-  padding: 5px 8px;
+
+  /* padding: 5px 8px; */
 }
 
 .program_section .program {
@@ -159,7 +169,8 @@ h1.fw-bolder {
   justify-content: center;
   align-items: center;
   border: none;
-  padding: 5px 10px;
+
+  /* padding: 5px 10px; */
 }
 
 .teacher_section .master .card .img_cover {
@@ -237,10 +248,3 @@ h1.fw-bolder {
   background-color: #ec5242;
   margin: 10px auto !important;
 }
-
-/* #removeableFooter {
-  display: none;
-}
-.show{
-  display: none;
-} */

@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
 
 .active {
   color: #ec5242 !important;
@@ -104,12 +109,21 @@ h1.fw-bolder {
   margin: 20px auto;
 }
 
+.bg-lg-white {
+  background-color: white;
+}
+
 /* HISTORY SECTION STYLE  */
 .history_section .title {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.footer a,
+.footer p {
+  color: #272a31;
 }
 
 .history_section .title p {
@@ -168,4 +182,8 @@ p.joinUs {
   font-size: 12px;
   color: #272a31;
   font-weight: bold;
+}
+
+.footer {
+  background-color: white;
 }
