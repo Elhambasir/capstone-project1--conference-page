@@ -9,6 +9,14 @@
   color: #ec5242 !important;
 }
 
+.nav {
+  font-size: 10px;
+}
+
+.nav .nav-item .nav-link:hover {
+  color: #ec5242 !important;
+}
+
 .tx-custom-color {
   color: #ec5242 !important;
 }
@@ -24,7 +32,7 @@
 }
 
 h1.fw-bolder {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Cocogoose', sans-serif;
   font-style: normal;
   font-size: 25px;
 }

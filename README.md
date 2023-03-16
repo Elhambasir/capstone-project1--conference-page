@@ -125,7 +125,7 @@ If you like this project reach me on my contact: WhatsApp => +93767405466
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank in advance. This is the first draft of this project. It works on my machine. If you try it and run into problems, please create an issue; I'll do what I can to fix it.
+I would like to thank to [Cindy Shin](https://www.behance.net/adagio07) for providing the design for this project.
 
 📝 License
 This project is [CINDY SHIN IN BEHANCE](./LICENSE) licensed.

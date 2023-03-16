@@ -13,10 +13,23 @@
   color: #ec5242 !important;
 }
 
+.nav {
+  font-size: 10px;
+}
+
+.nav .nav-item .nav-link:hover {
+  color: #ec5242 !important;
+}
+
 .campaign {
   color: #ec5242;
   border: 6px solid #ec5242;
   padding: 0 25px;
+}
+
+footer a,
+footer p {
+  color: #272a31;
 }
 
 .campaign a {
@@ -121,11 +134,6 @@ h1.fw-bolder {
   align-items: center;
 }
 
-.footer a,
-.footer p {
-  color: #272a31;
-}
-
 .history_section .title p {
   font-size: 12px;
   text-align: center;
@@ -184,6 +192,6 @@ p.joinUs {
   font-weight: bold;
 }
 
-.footer {
+footer {
   background-color: white;
 }
