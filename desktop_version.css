@@ -1,0 +1,98 @@
+@media (min-width: 768px) {
+  .navbar {
+    background-color: white;
+  }
+
+  .head_content {
+    height: 700px;
+  }
+
+  .head_content .rounded {
+    position: relative;
+    top: 0;
+    left: 15px;
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .head_content .rounded h6 {
+    font-size: 2rem;
+  }
+
+  .head_content .rounded #demo-text {
+    font-size: 3rem;
+  }
+
+  .head_content .rounded p {
+    font-size: 1.5rem;
+    width: 85%;
+    background-color: #f7f7f7;
+  }
+
+  .head_content .rounded h4 {
+    font-size: 2rem;
+  }
+
+  .program_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .program_section .program {
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .program_section .program > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .teacher_section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teacher_section .master {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .teacher_section .master .master_item {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1024) {
+  .head_content .rounded {
+    position: relative;
+    top: 0;
+    left: 15px;
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1440) {
+  .head_content .rounded {
+    position: relative;
+    top: 98px;
+    left: 15px;
+    width: 85%;
+    margin: 0 auto;
+  }
+}

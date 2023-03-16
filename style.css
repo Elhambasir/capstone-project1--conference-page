@@ -1,0 +1,259 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700');
+
+* {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+}
+
+.active {
+  color: #ec5242 !important;
+}
+
+.nav {
+  font-size: 10px;
+}
+
+.nav .nav-item .nav-link:hover {
+  color: #ec5242 !important;
+}
+
+.tx-custom-color {
+  color: #ec5242 !important;
+}
+
+.campaign {
+  color: #ec5242;
+  border: 6px solid #ec5242;
+  padding: 0 25px;
+}
+
+.campaign a {
+  color: #ec5242;
+}
+
+h1.fw-bolder {
+  font-family: 'Cocogoose', sans-serif;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.fs-small {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 11px;
+}
+
+.tx-custom-black {
+  color: #272a31;
+}
+
+.bg-custom-black {
+  background-color: #272a31;
+}
+
+.bg-custom-lightgray {
+  background-color: #d3d3d3;
+}
+
+#demo-text {
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-size: 27px;
+  font-weight: bolder;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-color: #ec5242;
+}
+
+.white-border {
+  border: 2px solid white;
+}
+
+.main {
+  background-image: url(./assets/images/mainbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.rounded {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.section {
+  background-image: url(./assets/images/backgrounds2.png);
+}
+
+.section h5 {
+  margin: 0;
+}
+
+.section h6 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.section p {
+  font-size: 12px;
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+
+.program_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  /* padding: 5px 8px; */
+}
+
+.program_section .program {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.program_item {
+  background: rgb(0, 0, 0);
+  background: rgb(124 124 124 / 50%);
+  color: #f1f1f1;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.program_item:hover {
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+.program_item .img_cover {
+  flex: 1;
+}
+
+.program_item .title {
+  flex: 1;
+}
+
+.program_item .desc {
+  flex: 2;
+}
+
+.join_button_cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 15px;
+}
+
+.join_button_cover button {
+  width: 80%;
+  height: 60px;
+  border: none;
+  background-color: #ec5242;
+  color: white;
+  cursor: pointer;
+}
+
+/* TEACHER SECTION STYLE  */
+.teacher_section .master {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.teacher_section .master .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+  /* padding: 5px 10px; */
+}
+
+.teacher_section .master .card .img_cover {
+  flex: 1;
+  height: fit-content;
+}
+
+.teacher_section .master .card .img_cover .background {
+  width: 50px;
+  height: 50px;
+  border: 1px solid gray;
+  background-image: url(./assets/images/black-white.png);
+  background-size: cover;
+  float: left;
+}
+
+.teacher_section .master .card .img_cover .forground {
+  width: 80px;
+  height: 75px;
+  position: relative;
+  top: 12px;
+  left: 12px;
+}
+
+.teacher_section .master .card .teacher_info {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 3px 10px;
+}
+
+.teacher_section .master .card .teacher_info small {
+  font-size: 10px;
+  margin-top: 0;
+  color: #ec5242;
+}
+
+.teacher_section .master .card .teacher_info h6 {
+  font-size: 12px;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.teacher_section .master .card .teacher_info p {
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.teacher_section .master .more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 50px;
+  margin-top: 1.7rem;
+  border: 1px solid lightgray;
+}
+
+.teacher_section .master .more button {
+  border: none;
+  background-color: white;
+  font-size: 12px;
+}
+
+.teacher_section .master .more button .bi-chevron-down {
+  color: #ec5242;
+}
+
+.hr {
+  width: 8% !important;
+  height: 2px;
+  color: #ec5242;
+  background-color: #ec5242;
+  margin: 10px auto !important;
+}
