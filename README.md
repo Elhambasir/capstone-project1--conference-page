@@ -4,7 +4,7 @@
 <div align="center">
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Javascript Capstone Project  - Star Educational Society </b></h3>
 
 </div>
 
@@ -35,7 +35,7 @@
 # 📖 [Star Educational Society] <a name="about-project">
 Hello , this a website for Star Educational Center</a>
 
-[Star's Website] This a webasite mobile first app. It is created according to capston project but the contents are different. For now just about and home page are completed but the complete version will be pushed next time.
+[Star's Website] is a website which allow users to showcase all information about their courses. It is created according to javascript capston project but the contents are from Star Education Society. For now just about and home page are completed but the complete version will be pushed next time.
 
 ## 🛠 Built With 
 
@@ -93,7 +93,7 @@ To run tests, run the following command: In visual studio code with live server 
 👤 **Author**
 
 - GitHub: [@Elhambasir](https://github.com/Elhambasir)
-- LinkedIn: [basir ahmadi](https://www.linkedin.com/in/basir-ahmadi-8aba89263)
+- LinkedIn: [basir ahmadi](https://www.linkedin.com/in/basirelhamahmadi)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +112,7 @@ To run tests, run the following command: In visual studio code with live server 
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Elhambasir/capstone-project1--conference-page/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
