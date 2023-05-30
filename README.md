@@ -66,19 +66,28 @@ In order to run this project you need:You have to clone this project to your loc
 
 ### Setup
 
-Clone this repository to your desired folder:git clone https://github.com/Elhambasir/capstone-project1--conference-page.git
+Clone this repository to your desired folder:
 
+
+```sh
+  cd my-folder
+  git clone https://github.com/Elhambasir/capstone-project1--conference-page.git
+```
 ### Install
 
-Install this project with: Any software which you are comfortable with
+Install this project with:
+```sh
+  cd capstone-project1--conference-page
+  npm install
+```
 
 ### Usage
 
 To run the project, execute the following command: On your computer's keyboard press f5 or run it with live server
 
-### Run tests
+### Loom video to explain the capstone project
 
-To run tests, run the following command: In visual studio code with live server plugin right click and run live server.
+> [click here 😊 to watch the video](https://www.loom.com/share/696d000a58334606be41fd99ae352bb7)
 
 ### Deployment
 
@@ -128,4 +137,5 @@ If you like this project reach me on my contact: WhatsApp => +93767405466
 I would like to thank to [Cindy Shin](https://www.behance.net/adagio07) for providing the design for this project.
 
 📝 License
-This project is [CINDY SHIN IN BEHANCE](./LICENSE) licensed.
+
+This project is [MIT](./LICENSE) licensed.
